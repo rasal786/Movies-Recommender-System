@@ -1,33 +1,80 @@
-# Movies-Recommender-System
+🎬 Movie Recommender System
 
-MOVIE RATING PREDICTION WITH PYTHON
+A content-based movie recommendation system that suggests similar movies based on user preferences using machine learning techniques and natural language processing. Built as part of an internship project to understand recommendation algorithms and data-driven application development.
 
-Build a model that predicts the rating of a movie based on
-features like genre, director, and actors. You can use regression
-techniques to tackle this problem.
 
-The goal is to analyze historical movie data and develop a model
-that accurately estimates the rating given to a movie by users or
-critics.
+------------------------------------------------
 
-Movie Rating Prediction project enables you to explore data
-analysis, preprocessing, feature engineering, and machine
-learning modeling techniques. It provides insights into the factors
-that influence movie ratings and allows you to build a model that
-can estimate the ratings of movies accurately.
+📌 INTERNSHIP TASK OVERVIEW 
 
-Features:
-1. Movie selection via a simple dropdown
-2. Machine Learning-based recommendation using a similarity matrix
-3. Movie posters fetched live using the TMDB API
-4. Top 5 recommendations shown with names and visuals
-5. Clean, responsive Ul with Streamlit
-Built with:
-Python, Pandas, Streamlit, TMDB API, Machine Learning (cosine similarity matrix)
-Why I did this?
-Wanted to dive deeper into real-world recommendation systems and practice building interactive apps. It was exciting to combine APIs, machine learning concepts, and Ul building all in one project.
-It's currently running locally, but I plan to deploy it soon!
-Leamed a lot-similarity-based recommendations, API integration, and building usable, interactive interfaces.
-Would love your feedback or your favorite movie recommendations!
+As part of this internship, I worked on developing a fully functional movie recommender system. Below are the key tasks I completed:
+
+1. Data Collection & Preprocessing
+
+Loaded and cleaned movie metadata from CSV files (genres, cast, crew, overview, keywords, etc.).
+
+
+
+2. Feature Engineering
+
+Combined important features into a single text format for vectorization (e.g., overview, cast, genres, director).
+
+
+
+3. Vectorization & Similarity Scoring
+
+Converted text data into numerical vectors using CountVectorizer and calculated cosine similarity between movies.
+
+
+
+4. Recommendation Logic Development
+
+Implemented logic to return the top 10 similar movies for any given movie input.
+
+
+
+5. Web Interface with Streamlit
+
+Developed a clean, interactive user interface to test recommendations in real time.
+
+
+
+
+
+------------------------------------------------
+
+🛠️ TECHNOLOGIES USED
+
+Python
+
+Pandas & NumPy (Data manipulation)
+
+Scikit-learn (Feature extraction & similarity computation)
+
+Streamlit (Web app deployment)
+
+Jupyter Notebook (Exploratory data analysis)
+
+VS Code / Google Colab (Development environment)
+
+
+
+------------------------------------------------
+
+💡 SKILLS GAINED
+
+Understanding of content-based recommendation systems
+
+Proficiency in data cleaning and feature engineering
+
+Experience with NLP techniques like tokenization and vectorization
+
+Building and deploying web apps using Streamlit
+
+Practical application of machine learning in real-world projects
+
+Git and GitHub for version control and collaboration 
+
+       ------------------------------------
 
 DATA SET LINK: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
